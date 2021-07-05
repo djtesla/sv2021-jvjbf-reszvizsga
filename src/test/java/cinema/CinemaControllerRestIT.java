@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CinemaControllerRestIT {
 
 
-    /*@Autowired
+    @Autowired
     TestRestTemplate template;
 
     @BeforeEach
@@ -176,5 +176,5 @@ public class CinemaControllerRestIT {
 
         assertEquals(URI.create("cinema/bad-reservation"),result.getType());
         assertEquals(Status.BAD_REQUEST, result.getStatus());
-    }*/
+    }
 }
